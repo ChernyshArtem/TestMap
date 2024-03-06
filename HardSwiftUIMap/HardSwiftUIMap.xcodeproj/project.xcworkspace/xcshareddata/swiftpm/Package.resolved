@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "clustermap",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vospennikov/ClusterMap",
+      "state" : {
+        "revision" : "b743646facc51883bc63a3d955d3da6805c7377b",
+        "version" : "2.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
