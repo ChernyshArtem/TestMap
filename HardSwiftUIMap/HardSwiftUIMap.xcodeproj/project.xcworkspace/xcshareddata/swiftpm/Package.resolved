@@ -3,10 +3,10 @@
     {
       "identity" : "clustermap",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/vospennikov/ClusterMap",
+      "location" : "https://github.com/ChernyshArtem/ClusterMap",
       "state" : {
-        "revision" : "b743646facc51883bc63a3d955d3da6805c7377b",
-        "version" : "2.1.0"
+        "branch" : "main",
+        "revision" : "e26cdc09ea39c979702fe68f6c443845180a0c9c"
       }
     }
   ],

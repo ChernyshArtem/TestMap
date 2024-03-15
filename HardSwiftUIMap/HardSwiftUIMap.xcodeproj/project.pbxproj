@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E04D4F5B2BA43C76006F2BA8 /* ClusterMap in Frameworks */ = {isa = PBXBuildFile; productRef = E04D4F5A2BA43C76006F2BA8 /* ClusterMap */; };
+		E04D4F5D2BA43C76006F2BA8 /* ClusterMapSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E04D4F5C2BA43C76006F2BA8 /* ClusterMapSwiftUI */; };
 		E0539E202B98A8FD001D1538 /* HardSwiftUIMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0539E1F2B98A8FD001D1538 /* HardSwiftUIMapApp.swift */; };
 		E0539E222B98A8FD001D1538 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0539E212B98A8FD001D1538 /* ContentView.swift */; };
 		E0539E242B98A8FE001D1538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0539E232B98A8FE001D1538 /* Assets.xcassets */; };
 		E0539E282B98A8FE001D1538 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0539E272B98A8FE001D1538 /* Preview Assets.xcassets */; };
 		E0539EC92B98B1F3001D1538 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0539EC82B98B1F3001D1538 /* Random.swift */; };
-		E0539ECC2B98B21A001D1538 /* ClusterMap in Frameworks */ = {isa = PBXBuildFile; productRef = E0539ECB2B98B21A001D1538 /* ClusterMap */; };
-		E0539ECE2B98B21A001D1538 /* ClusterMapSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E0539ECD2B98B21A001D1538 /* ClusterMapSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0539ECE2B98B21A001D1538 /* ClusterMapSwiftUI in Frameworks */,
-				E0539ECC2B98B21A001D1538 /* ClusterMap in Frameworks */,
+				E04D4F5D2BA43C76006F2BA8 /* ClusterMapSwiftUI in Frameworks */,
+				E04D4F5B2BA43C76006F2BA8 /* ClusterMap in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,8 +93,8 @@
 			);
 			name = HardSwiftUIMap;
 			packageProductDependencies = (
-				E0539ECB2B98B21A001D1538 /* ClusterMap */,
-				E0539ECD2B98B21A001D1538 /* ClusterMapSwiftUI */,
+				E04D4F5A2BA43C76006F2BA8 /* ClusterMap */,
+				E04D4F5C2BA43C76006F2BA8 /* ClusterMapSwiftUI */,
 			);
 			productName = HardSwiftUIMap;
 			productReference = E0539E1C2B98A8FD001D1538 /* HardSwiftUIMap.app */;
@@ -125,7 +125,7 @@
 			);
 			mainGroup = E0539E132B98A8FD001D1538;
 			packageReferences = (
-				E0539ECA2B98B21A001D1538 /* XCRemoteSwiftPackageReference "ClusterMap" */,
+				E04D4F592BA43C76006F2BA8 /* XCRemoteSwiftPackageReference "ClusterMap" */,
 			);
 			productRefGroup = E0539E1D2B98A8FD001D1538 /* Products */;
 			projectDirPath = "";
@@ -376,25 +376,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E0539ECA2B98B21A001D1538 /* XCRemoteSwiftPackageReference "ClusterMap" */ = {
+		E04D4F592BA43C76006F2BA8 /* XCRemoteSwiftPackageReference "ClusterMap" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/vospennikov/ClusterMap";
+			repositoryURL = "https://github.com/ChernyshArtem/ClusterMap";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.1.0;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E0539ECB2B98B21A001D1538 /* ClusterMap */ = {
+		E04D4F5A2BA43C76006F2BA8 /* ClusterMap */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E0539ECA2B98B21A001D1538 /* XCRemoteSwiftPackageReference "ClusterMap" */;
+			package = E04D4F592BA43C76006F2BA8 /* XCRemoteSwiftPackageReference "ClusterMap" */;
 			productName = ClusterMap;
 		};
-		E0539ECD2B98B21A001D1538 /* ClusterMapSwiftUI */ = {
+		E04D4F5C2BA43C76006F2BA8 /* ClusterMapSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E0539ECA2B98B21A001D1538 /* XCRemoteSwiftPackageReference "ClusterMap" */;
+			package = E04D4F592BA43C76006F2BA8 /* XCRemoteSwiftPackageReference "ClusterMap" */;
 			productName = ClusterMapSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
